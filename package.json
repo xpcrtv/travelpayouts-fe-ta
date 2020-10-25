@@ -41,6 +41,7 @@
   },
   "homepage": "https://github.com/xpcrtv/travelpayouts-fe-ta#readme",
   "dependencies": {
-    "flatpickr": "^4.6.6"
+    "flatpickr": "^4.6.6",
+    "i18next": "^19.8.3"
   }
 }
