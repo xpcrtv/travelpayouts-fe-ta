@@ -4,7 +4,8 @@
   "description": "frontend test assigment ",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development",
+    "sandbox": "npm run build && node ./sandbox/prepare.js && http-server ./sandbox"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "cheerio": "^1.0.0-rc.3",
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^7.0.2",
     "css-loader": "^5.0.0",
@@ -21,6 +23,7 @@
     "cssnano": "^4.1.10",
     "file-loader": "^6.1.1",
     "html-webpack-plugin": "^4.5.0",
+    "http-server": "^0.12.3",
     "node-sass": "^4.14.1",
     "postcss": "^8.1.4",
     "postcss-loader": "^4.0.4",
