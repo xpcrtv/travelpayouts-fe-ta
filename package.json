@@ -32,6 +32,10 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
+  "browserslist": [
+    "last 2 versions",
+    "not IE 11"
+  ],
   "bugs": {
     "url": "https://github.com/xpcrtv/travelpayouts-fe-ta/issues"
   },
